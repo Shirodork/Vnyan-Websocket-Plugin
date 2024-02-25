@@ -6,10 +6,10 @@
 type: plugin4
 
 # Name of the plugin.
-name: Websocket
+name: VnyanWebsocket
 
 # Name that is displayed in the Loupedeck configuration application.
-displayName: Websocket
+displayName: VnyanWebsocket
 
 # Name of the plugin library file.
 pluginFileName: WebsocketPlugin.dll
@@ -18,7 +18,7 @@ pluginFileName: WebsocketPlugin.dll
 version: 1.0
 
 # Author of the plugin. The author can be a company or an individual developer.
-author: 
+author: Maplebork
 
 # Copyright information.
 copyright: Copyright © 2024 . All rights reserved.
@@ -70,7 +70,7 @@ licenseUrl: https://opensource.org/licenses/MIT
 # URL of the support page where the users can send improvement suggestions and report bugs.
 # The URL is shown in Loupedeck Marketplace. The page can be for example a GitHub issues page.
 # NOTE: This setting is recommended when publishing the plugin in Loupedeck Marketplace.
-#supportPageUrl: https://github.com/myusername/myplugin/issues
+#supportPageUrl: https://github.com/Shirodork/Vnyan-Websocket-Plugin/issues
 
 # URL of the plugin homepage. The URL is shown in Loupedeck Marketplace.
-#homePageUrl: https://github.com/myusername/myplugin
+#homePageUrl: https://github.com/Shirodork/Vnyan-Websocket-Plugin
