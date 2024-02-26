@@ -15,7 +15,7 @@ displayName: VnyanWebsocket
 pluginFileName: WebsocketPlugin.dll
 
 # Plugin version.
-version: 1.0
+version: 2.0
 
 # Author of the plugin. The author can be a company or an individual developer.
 author: Maplebork
