@@ -11,7 +11,7 @@ Note: This plugin is for Loupedeck Streamdecks ONLY! Additionally, I have only t
 - Vnyan
 
 ### How to use the Plugin:
-1. Download the latest release of the Plug-in ![here](https://github.com/Shirodork/Vnyan-Websocket-Plugin/releases)
+1. Download the latest release of the Plug-in [here](https://github.com/Shirodork/Vnyan-Websocket-Plugin/releases)
 2. Install the lplug4 plug-in file via the Loupedeck Configuration Program (You might need to restart the Loupedeck service)
 3. Unhide the VNyan Websocket plug-in
     - ![Loupedeck Plugin Unhide](/images/UnhidePlugin.png)
