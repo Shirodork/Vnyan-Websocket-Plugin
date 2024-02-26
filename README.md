@@ -18,7 +18,7 @@ Note: This plugin is for Loupedeck Streamdecks ONLY! Additionally, I have only t
 4. Click the "Websocket Connection" under VnyanWebsocket to set up a new button. The parameters are as follows:
     - Name: The name of the button
     - Enter Websocket Command: The message to send to Vnyan. Make sure it matches!
-    - Example: I have a toggle for turning on and off my Vtuber sweater. So I have a button configured with the command "SweaterOn" and "SweaterOff"
+    - Example: I have a toggle for turning on and off my Vtuber sweater. So I have a button configured with the commands "SweaterOn" and "SweaterOff"
     - ![Loupedeck Plugin](/images/Loupedeck.png)
 5.  Open VNyan if you haven't already and start the Websocket server
     - Menu > Settings > Misc. > WebSockets
@@ -34,4 +34,4 @@ Note: This plugin is for Loupedeck Streamdecks ONLY! Additionally, I have only t
    
 ## Extra Notes:
 Upon first press of the Plug-in button, Loupedeck will take a second or two to connect to WebSocket. Once established, the connection will remain until no inputs have been detected for 5 minutes, in which the connection will terminate. The connection will reconnect if an input is pressed after the plug-in has disconnected. 
-    - This means that the first toggle press will not be immediate, however, while the connection is active, the toggles will be persistent.
+    - This means that the first toggle press will not be immediate, however, while the connection is active, the toggles will be instantaneous.
