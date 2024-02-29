@@ -33,5 +33,5 @@ Note: This plugin is for Loupedeck Streamdecks ONLY! Additionally, I have only t
 7. The Loupedeck should connect and send the message to Vnyan, triggering any actions connected to the Node.
    
 ## Extra Notes:
-Upon first press of the Plug-in button, Loupedeck will take a second or two to connect to WebSocket. Once established, the connection will remain until no inputs have been detected for 5 minutes, in which the connection will terminate. The connection will reconnect if an input is pressed after the plug-in has disconnected. 
+Upon first press of the Plug-in button, Loupedeck will take a second or two to connect to WebSocket. Once established, the connection will remain until no inputs have been detected for 15 minutes, in which the connection will terminate. The connection will reconnect if an input is pressed after the plug-in has disconnected. 
     - This means that the first toggle press will not be immediate, however, while the connection is active, the toggles will be instantaneous.
