@@ -32,7 +32,7 @@
                 }
             }
 
-            inactivityTimer.Change(TimeSpan.FromMinutes(5), Timeout.InfiniteTimeSpan);
+            inactivityTimer.Change(TimeSpan.FromMinutes(15), Timeout.InfiniteTimeSpan);
 
             ArraySegment<byte> bytesToSend = new ArraySegment<byte>(Encoding.UTF8.GetBytes(message));
             await webSocket.SendAsync(bytesToSend, WebSocketMessageType.Text, true, CancellationToken.None);
