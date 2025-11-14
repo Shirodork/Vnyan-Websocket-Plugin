@@ -1,27 +1,25 @@
-﻿namespace Loupedeck.WebsocketPlugin.Actions
+namespace Logitech.LogiActions.WebsocketPlugin.Actions
 {
     using System;
-    using System.Net.WebSockets;
-    using System.Text;
-    using System.Threading;
-    using System.Threading.Tasks;
 
-    using Loupedeck.WebsocketPlugin.Helpers;
-
-    public class WebsocketCommand : PluginDynamicCommand
+    public sealed class WebsocketCommand : PluginDynamicCommand
     {
-        private static WebSocketConnectionManager connectionManager = new WebSocketConnectionManager();
-
-        public WebsocketCommand() : base("Websocket Connection", "Send a Websocket Message", "Websockets")
+        public WebsocketCommand()
+            : base("VNyan Command", "Send a custom VNyan websocket message", "VNyan")
         {
             this.MakeProfileAction("text;Enter Websocket Command");
         }
 
         protected override void RunCommand(String actionParameter)
         {
-            // Asynchronously send a message without awaiting here to avoid blocking the UI thread
-            Task.Run(() => connectionManager.SendMessageAsync(actionParameter));
+            if (this.Plugin is WebsocketPlugin plugin)
+            {
+                plugin.QueueSend(actionParameter);
+            }
+            else
+            {
+                PluginLog.Warning("Unable to resolve WebsocketPlugin instance for the command execution.");
+            }
         }
     }
-
 }
