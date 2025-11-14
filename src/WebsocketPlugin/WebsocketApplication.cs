@@ -1,10 +1,10 @@
-namespace Loupedeck.WebsocketPlugin
+namespace Logitech.LogiActions.WebsocketPlugin
 {
     using System;
 
-    // This class can be used to connect the Loupedeck plugin to an application.
+    // This class can be used to connect the plugin to a foreground application if VNyan exposes one.
 
-    public class WebsocketApplication : ClientApplication
+    public sealed class WebsocketApplication : ClientApplication
     {
         public WebsocketApplication()
         {

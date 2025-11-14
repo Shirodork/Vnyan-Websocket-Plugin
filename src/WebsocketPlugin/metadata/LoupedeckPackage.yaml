@@ -6,16 +6,16 @@
 type: plugin4
 
 # Name of the plugin.
-name: Websocket
+name: VnyanWebsocket
 
 # Name that is displayed in the Loupedeck configuration application.
-displayName: Vnyan Websocket
+displayName: VNyan Websocket
 
 # Name of the plugin library file.
 pluginFileName: WebsocketPlugin.dll
 
 # Plugin version.
-version: 2.1
+version: 6.0.0
 
 # Author of the plugin. The author can be a company or an individual developer.
 author: Maplebork
@@ -30,7 +30,7 @@ copyright: Copyright © 2024 . All rights reserved.
 
 # Location of plugin files on Windows (relative to the plugin base directory).
 # This parameter is required to support Windows.
-pluginFolderWin: win
+pluginFolderWin: bin/win
 
 # Location of plugin files on macOS (relative to the plugin base directory).
 # This parameter is required to support Mac.
@@ -53,7 +53,7 @@ pluginCapabilities:
     #- ActivatesApplication
 
 # Minimum Loupedeck version supported by the plugin.
-minimumLoupedeckVersion: 5.7
+minimumLoupedeckVersion: 6.0
 
 
 # ==================================================================================================
